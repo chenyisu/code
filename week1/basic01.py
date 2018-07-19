@@ -1,0 +1,11 @@
+name = input()
+id = int(input())
+Chine_score1 = int(input())
+Chine_score2 = int(input())
+Chine_score3 = int(input())
+total = Chine_score1+Chine_score2+Chine_score3
+avg = int(total/3)
+print("Name:",name,sep="")
+print("Id:",id,sep="")
+print("Total:",total,sep="")
+print("Average:",avg,sep="")
